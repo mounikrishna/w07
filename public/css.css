@@ -1,0 +1,121 @@
+
+article{
+    background-color: white;
+    text-align: justify;
+    color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: black;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-align: right;
+    padding-right: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}
+ aside{
+    background-color: white;
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 5px;
+
+ }
+#past-section{
+    color:brown;
+    background-color:whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#future-section{
+    color: darkgreen;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aside-t{
+    color: grey;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#sche{
+    background-color: rgb(255, 255, 116);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(33, 34, 34);
+}
+
+
+img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.navbar{
+    background-color: black;
+}
+
+span{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#second{
+    padding-top: 70px;
+}
+
+#got{
+    text-align: justify;
+}
+
+li{
+    width: 300px;
+}
+
+.navbar-brand{
+    width: 100px;
+    background-color:rgb(0, 10, 0);
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: #fff;
+    color: #444;
+    padding: 1em;
+  }
+  
+  section {
+    background-color: #006747;
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.5em;
+    font-size: 1em;
+    text-align: center;
+  }
+  

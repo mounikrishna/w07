@@ -1,0 +1,48 @@
+<% include header %>
+		
+<div class="container">
+    <div class="col-lg-10">
+            <div class="form-sec">
+                    <h4>Contact form</h4>
+                    
+                   <form name="qryform" id="qryform" method="post" action="mail.php" onsubmit="return(validate());" novalidate="novalidate">
+                      <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                      </div>
+                      <div class="form-group">
+                        <label>Email:</label>
+                        <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label>Phone No.:</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+                      </div>
+                      <div class="form-group">
+                        <label>Subject:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+                      </div>
+                       
+                      <div class="form-group">
+                        <label>Issues/query:</label>
+                        <textarea name="issues" class="form-control" id="iq" placeholder="Enter your Issues/query"></textarea>
+                      </div>
+                      
+                      
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    </div>
+    </div>
+    <div class="col-lg-2">
+        <a target="_blank" href="https://github.com/mounikrishna"><img src="github.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mouni-krishna-atluri-b8a836106/"><img src="linkedin.png"></a>
+        <a target="_blank" href="https://bitbucket.org/Mouni_Krishna/"><img src="bitbucket.png"></a>
+
+    </div>
+        
+</div>
+    
+<%include footer%>
+
+
